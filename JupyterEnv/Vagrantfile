@@ -1,0 +1,35 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+
+  # the base virtual machine ubuntu 14.04 64bit
+  config.vm.box = "ubuntu/trusty64"
+
+  # forward the 8888 port, to acccess to jupyter web interface from the host
+  config.vm.network "forwarded_port", guest: 8888, host: 8888
+
+  # specify the memory for the virtual machine
+  config.vm.provider "virtualbox" do |vb|
+    # if you need more memory change this value
+    vb.memory = 1024
+    # if you need more cpu uncomment the next line
+    #vb.cpus = 2
+  end
+
+  # install python2, python3, jupyter and libraries with all dependencies
+  config.vm.provision "shell", inline: <<-SHELL
+    sudo apt-get update
+    sudo apt-get install -y python-dev
+    sudo apt-get install -y python-setuptools
+    sudo apt-get install -y python-pip
+
+    sudo pip install --upgrade ipython[all]
+    sudo mkdir /vagrant/notebook
+  SHELL
+
+  config.vm.provision "shell", run: "always", inline: <<-SHELL
+    ipython notebook --notebook-dir=/vagrant/notebook --no-browser --ip=0.0.0.0 &
+  SHELL
+
+end
