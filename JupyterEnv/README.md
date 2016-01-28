@@ -10,9 +10,13 @@ This short description will show you, how to set up Your own Python environment 
 Download and install VirtualBox and Vagrant.
 
 ### Step 2
-Download this repository https://github.com/fazekasda/MyPythonLeanrPack/archive/master.zip (or clone with git). Uncompress the zip file.
+Download this repository https://github.com/fazekasda/MyPythonLeanrPack/archive/master.zip (or clone with git: 'git clone https://github.com/fazekasda/MyPythonLeanrPack.git'), then compress the zip file.
 
 ### Step 3
-Open a terminal. Enter the folder where You uncompressed the zip file, and enter the MyPythonLeanrPack-master folder and the JupyterEnv folder. (type this command: cd where_uncompressed_the_zip_file/MyPythonLeanrPack-master/JupyterEnv)
+Open a terminal. Enter the folder where You uncompressed the zip file, and enter the MyPythonLeanrPack-master folder and the JupyterEnv folder. (type this command: 'cd where_uncompressed_the_zip_file/MyPythonLeanrPack-master/JupyterEnv')
 
-## Step 4
+### Step 4
+Type this command: 'vagrant up'
+
+### Step 5
+Open http://localhost:8888 in your bowser.

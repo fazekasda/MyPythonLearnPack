@@ -23,21 +23,28 @@ Vagrant.configure(2) do |config|
     sudo apt-get install -y build-essential
     # install python2
     sudo apt-get install -y python-dev python-setuptools python-pip
-    sudo apt-get install python-matplotlib python-numpy python-scipy python-pandas python-pandas-lib
+    sudp pip install numpy scipy matplotlib
+    sudo pip install jinja2 six requests tornado pyyaml python-dateutil
+    sudo pip install statsmodels seaborn
+    sudo pip install bokeh
+    sudo pip install pandas
+    sudo pip install ipykernel
+    #sudo apt-get install python-matplotlib python-numpy python-scipy python-pandas python-pandas-lib
     # install python3
     sudo apt-get install -y python3-dev python3-setuptools python3-pip
-    sudo apt-get install python3-matplotlib python3-numpy python3-scipy python3-pandas python3-pandas-lib
-    # install jupyter
-    sudo pip install jinja2 six requests tornado pyyaml python-dateutil
+    sudp pip3 install numpy scipy matplotlib
     sudo pip3 install jinja2 six requests tornado pyyaml python-dateutil
-    sudo pip install statsmodels seaborn
     sudo pip3 install statsmodels seaborn
-    sudo pip3 install jupyter
-    sudo pip install bokeh
     sudo pip3 install bokeh
+    sudo pip3 install pandas
+    sudo pip3 install jupyter
+    #sudo apt-get install python3-matplotlib python3-numpy python3-scipy python3-pandas python3-pandas-lib
+    # install jupyter
     # add python3 kernel to jupyter
-    sudo ipython3 kernel install
-    
+    sudo ipykernel install
+    #sudo ipython kernel install
+    #sudo ipython3 kernel install
+    #sympy?
     sudo mkdir /vagrant/notebook
   SHELL
 
