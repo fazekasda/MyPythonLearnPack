@@ -28,6 +28,7 @@ Vagrant.configure(2) do |config|
     sudo pip install statsmodels seaborn
     sudo pip install bokeh
     sudo pip install pandas
+    sudo pip install ipywidgets
     sudo pip install ipykernel
     # install python3
     sudo apt-get install -y python3-dev python3-setuptools python3-pip
@@ -37,6 +38,7 @@ Vagrant.configure(2) do |config|
     sudo pip3 install bokeh
     sudo pip3 install pandas
     sudo pip3 install jupyter
+    sudo pip3 install ipywidgets
     # install jupyter
     sudo python2 -m ipykernel install
     #sympy?
