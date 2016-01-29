@@ -1,8 +1,9 @@
-# MyPythonLeanrPack
+# MyPythonLearnPack
 Yet another learn python pack
 
 ## Setup a python environment
-
+This repo is contains a prepared virtual environment which is easy to install. You can start to use python without learn how to install python and libraries what is some time not to easy and require some system administrator knowledge.
+If you want to install this environment to your own computer follow [this](https://github.com/fazekasda/MyPythonLearnPack/tree/master/JupyterEnv) description.
 
 ## Where to begin?
 * https://www.python.org/ - Home of Python
@@ -18,11 +19,14 @@ Yet another learn python pack
 
 ## Environments
 * https://www.pythonanywhere.com/ - A full Python environment in the cloud with a lot of [libraries](https://www.pythonanywhere.com/batteries_included/) and many Python version. You can write Python scripts in the browser. There is a free plan.
-* Jupyter
+* https://jupyter.org/
 * https://www.continuum.io/why-anaconda - Scientific Python environment.
 
 ## Libraries
-* 
+* http://www.numpy.org/
+* https://www.scipy.org/
+* http://pandas.pydata.org/
+* https://jupyter.org/
 
 ## IDEs
 * https://www.pythonanywhere.com/ - A full Python environment in the cloud with a lot of [libraries](https://www.pythonanywhere.com/batteries_included/) and many Python version. You can write Python scripts in the browser. There is a free plan.
