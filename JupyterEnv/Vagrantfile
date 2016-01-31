@@ -19,34 +19,35 @@ Vagrant.configure(2) do |config|
 
   # install python2, python3, jupyter and libraries with all dependencies
   config.vm.provision "shell", inline: <<-SHELL
+    echo "deb http://downloads.skewed.de/apt/trusty trusty universe" | sudo tee -a /etc/apt/sources.list
+    echo "deb-src http://downloads.skewed.de/apt/trusty trusty universe" | sudo tee -a /etc/apt/sources.list
+    sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
     sudo apt-get update
     sudo apt-get install -y build-essential
+    sudo apt-get install -y libxml2-dev zlib1g-dev g++-4.9
     # install python2
     sudo apt-get install -y python-dev python-setuptools python-pip
+    sudo apt-get install --force-yes -y python-graph-tool
     sudp pip install numpy scipy matplotlib
     sudo pip install jinja2 six requests tornado pyyaml python-dateutil
     sudo pip install statsmodels seaborn
-    sudo pip install bokeh
-    sudo pip install pandas
-    sudo pip install sympy
-    sudo pip install ipywidgets
-    sudo pip install ipykernel
+    sudo pip install bokeh pandas sympy
+    sudo pip install ipykernel ipywidgets
+    sudo pip install jgraph networkx python-igraph
     # install python3
     sudo apt-get install -y python3-dev python3-setuptools python3-pip
+    sudo apt-get install --force-yes -y python3-graph-tool
     sudo pip3 install numpy scipy matplotlib
     sudo pip3 install jinja2 six requests tornado pyyaml python-dateutil
     sudo pip3 install statsmodels seaborn
-    sudo pip3 install bokeh
-    sudo pip3 install pandas
-    sudo pip3 install sympy
-    sudo pip3 install jupyter
-    sudo pip3 install ipywidgets
-    sudo pip3 install ipykernel
+    sudo pip3 install bokeh pandas sympy
+    sudo pip3 install jupyter ipykernel ipywidgets
+    sudo pip3 install jgraph networkx python-igraph
     # install jupyter
     sudo python2 -m ipykernel install
     sudo python3 -m ipykernel install
     #sympy?
-    mkdir /vagrant/notebook
+    mkdir -p /vagrant/notebook
   SHELL
 
   config.vm.provision "shell", run: "always", inline: <<-SHELL
