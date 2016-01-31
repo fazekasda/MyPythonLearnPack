@@ -46,7 +46,7 @@ Vagrant.configure(2) do |config|
     # install jupyter
     sudo python2 -m ipykernel install
     sudo python3 -m ipykernel install
-    #sympy?
+    #
     mkdir -p /vagrant/notebook
   SHELL
 
