@@ -25,6 +25,7 @@ Vagrant.configure(2) do |config|
     sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
     sudo apt-get update
     sudo apt-get install -y build-essential libxml2-dev zlib1g-dev g++-4.9 graphviz libgraphviz-dev pkg-config
+    sudo apt-get install libtiff5-dev libjpeg8-dev zlib1g-dev libfreetype6-dev liblcms2-dev libwebp-dev tcl8.6-dev tk8.6-dev python-tk
     # install python2
     sudo apt-get install -y python-dev python-setuptools python-pip
     sudo apt-get install --force-yes -y python-graph-tool
@@ -39,7 +40,7 @@ Vagrant.configure(2) do |config|
     sudo python2 -m ipykernel install
     sudo python3 -m ipykernel install
     sudo pip3 install --upgrade tornado
-    #
+    #BIOPYTHON
     mkdir -p /vagrant/notebook
   SHELL
 

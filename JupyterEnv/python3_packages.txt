@@ -12,6 +12,8 @@ seaborn
 bokeh
 pandas
 sympy
+reportlab
+biopython
 jupyter
 ipywidgets
 jgraph
