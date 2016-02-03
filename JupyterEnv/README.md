@@ -27,3 +27,8 @@ This command tells Vagrant to download a base virtual machine and all the packag
 Open [http://localhost:8888](http://localhost:8888) in your bowser.
 
 ## Usage
+After you started the virtual machine (the `vagrant up` command is done) you can close the terminal, the virtual machine keep running in the background. You can access to the Jupyter interface from the web browser until you stop the virtual machine.
+From Jupyter, you can access the notebook `MyPythonLeanrPack-master/JupyterEnv/notebook/` folder. The files and jupyter-notebooks in this folder are keep available after you stop even remove the virtual machine. If you want to work with some data just copy to this folder and the jupyter-notebooks will access to it.
+
+To stop the virtual machine just type this command: `vagrant halt` (if you are closed the terminal or changed the folder, you have to open a terminal and enter the `MyPythonLeanrPack-master/JupyterEnv` folder). Next time when you start the virtual machine (Step 3-4-5) it will much faster then first time, because it will not creat a new virtual machine just start the already prepared one.
+You can pause the with `vagrant suspend`, in this case you have to use the `vagrant resume` command to resume the virtual machine.
