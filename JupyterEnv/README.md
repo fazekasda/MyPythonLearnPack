@@ -31,4 +31,9 @@ After you started the virtual machine (the `vagrant up` command is done) you can
 From Jupyter, you can access the notebook `MyPythonLeanrPack-master/JupyterEnv/notebook/` folder. The files and jupyter-notebooks in this folder are keep available after you stop even remove the virtual machine. If you want to work with some data just copy to this folder and the jupyter-notebooks will access to it.
 
 To stop the virtual machine just type this command: `vagrant halt` (if you are closed the terminal or changed the folder, you have to open a terminal and enter the `MyPythonLeanrPack-master/JupyterEnv` folder). Next time when you start the virtual machine (Step 3-4-5) it will much faster then first time, because it will not creat a new virtual machine just start the already prepared one.
-You can pause the with `vagrant suspend`, in this case you have to use the `vagrant resume` command to resume the virtual machine.
+You also can pause the with `vagrant suspend`, in this case you have to use the `vagrant resume` command to resume the virtual machine. When you suspend the virtual machine the processes inside the machine will be not interrupted, the memory of the virtual machine saving to the disk during this process.
+
+The virtual machine uses lot of resources (memory and cpu). So if you not use, it supposed to stop or suspend it!
+
+When the virtual machine is not needed anymore you can delete is with this command: `vagrant destroy`
+Your files and jupyter-notebooks will not deleted if you delete the virtual machine, those are keep available in the `MyPythonLeanrPack-master/JupyterEnv/notebook/` folder.
