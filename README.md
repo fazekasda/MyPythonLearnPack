@@ -16,6 +16,7 @@ If you want to install this environment to your own computer follow [this](https
 ## Tutorilas
 * https://automatetheboringstuff.com/ - Python for beginners, a different way, whit a lot tutorial
 * https://github.com/faif/python-patterns - Programming patterns in Python
+* https://github.com/mshang/python-elevator-challenge - Program an elevator in Python
 
 ## Environments
 * https://www.pythonanywhere.com/ - A full Python environment in the cloud with a lot of [libraries](https://www.pythonanywhere.com/batteries_included/) and many Python version. You can write Python scripts in the browser. There is a free plan.
