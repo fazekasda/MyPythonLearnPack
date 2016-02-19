@@ -8,6 +8,7 @@ If you want to install this environment to your own computer follow [this](https
 ## Where to begin?
 * https://www.python.org/ - Home of Python
 * https://www.codecademy.com/learn/python - Interactive platform to learn Python (and many other language as wel). If you are never user Python before, start here.
+* https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_ - Long video tutorial for Python from the very beginning
 
 ## Learning platforms
 * https://www.codecademy.com/learn/python - Interactive platform to learn Python (and many other language as wel). If you are never user Python before, start here.
