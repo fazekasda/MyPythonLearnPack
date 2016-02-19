@@ -5,6 +5,7 @@ jinja2
 six
 requests
 tornado
+pyfasta
 pyyaml
 python-dateutil
 statsmodels
