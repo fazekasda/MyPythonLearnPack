@@ -9,15 +9,22 @@ If you want to install this environment to your own computer follow [this](https
 * https://www.python.org/ - Home of Python
 * https://www.codecademy.com/learn/python - Interactive platform to learn Python (and many other language as wel). If you are never user Python before, start here.
 * https://www.youtube.com/watch?v=HBxCHonP6Ro&list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_ - Long video tutorial for Python from the very beginning
+* https://github.com/mshang/python-elevator-challenge - Program an elevator in Python
 
-## Learning platforms
+## Interactive learning platforms
 * https://www.codecademy.com/learn/python - Interactive platform to learn Python (and many other language as wel). If you are never user Python before, start here.
-* https://www.pythonanywhere.com/ - A full Python environment in the cloud with a lot of [libraries](https://www.pythonanywhere.com/batteries_included/) and many Python version. You can write Python scripts in the browser. There is a free plan.
+* http://www.learnpython.org/ - Big set of tutorials from the basics
+* https://www.datacamp.com/courses/intro-to-python-for-data-science - Interactive tutorial focus on Data Science use
+* https://www.datacamp.com/courses/intermediate-python-for-data-science - Interactive tutorial focus on visualization with matplotlib
 
 ## Tutorilas
 * https://automatetheboringstuff.com/ - Python for beginners, a different way, whit a lot tutorial
+* http://python.swaroopch.com/ - Learn Python from beginning by tutorials
+* https://www.codementor.io/python/tutorial - Useful tutorials from experts
 * https://github.com/faif/python-patterns - Programming patterns in Python
-* https://github.com/mshang/python-elevator-challenge - Program an elevator in Python
+
+## Massive Open Online Courses (MOOCs)
+* https://www.coursera.org/specializations/python - A Coursera specialization for learning Python
 
 ## Environments
 * https://www.pythonanywhere.com/ - A full Python environment in the cloud with a lot of [libraries](https://www.pythonanywhere.com/batteries_included/) and many Python version. You can write Python scripts in the browser. There is a free plan.
@@ -29,10 +36,13 @@ If you want to install this environment to your own computer follow [this](https
 * https://www.scipy.org/
 * http://pandas.pydata.org/
 * https://jupyter.org/
+* https://boltons.readthedocs.org/en/latest/ - Lot of useful tool for advanced Python programming
 
 ## IDEs
 * https://www.pythonanywhere.com/ - A full Python environment in the cloud with a lot of [libraries](https://www.pythonanywhere.com/batteries_included/) and many Python version. You can write Python scripts in the browser. There is a free plan.
-* https://www.jetbrains.com/pycharm/ - My favorite IDE
+* https://www.yhat.com/products/rodeo - RStudio like IDE for python focusing on data analysis
+* https://www.jetbrains.com/pycharm/ - One of the best IDE for python, with lot of tools, but complex interface
+* https://www.continuum.io/why-anaconda - Easy to in
 
 ## Books
 ### Must read
@@ -42,6 +52,8 @@ If you want to install this environment to your own computer follow [this](https
 ### Advanced Python
 * http://www.effectivepython.com/
 * http://shop.oreilly.com/product/0636920032519.do
+* http://learnpythonthehardway.org/book/
+* http://book.pythontips.com/en/latest/
 
 ### Other Books
 * http://www.obeythetestinggoat.com/ - Python testing
@@ -53,6 +65,9 @@ If you want to install this environment to your own computer follow [this](https
 * https://talkpython.fm/
 * http://podcastinit.com/
 * http://frompythonimportpodcast.com/
+
+## Useful links
+* http://pythontips.com/2016/02/27/learning-python-for-data-science/
 
 ## FUN
 * https://quantifiedcode.github.io/code-is-beautiful/ - Visualization of Python code
