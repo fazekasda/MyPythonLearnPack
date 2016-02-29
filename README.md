@@ -68,6 +68,7 @@ If you want to install this environment to your own computer follow [this](https
 
 ## Useful links
 * http://pythontips.com/2016/02/27/learning-python-for-data-science/
+* http://pep8.org/ - Code style guide
 
 ## FUN
 * https://quantifiedcode.github.io/code-is-beautiful/ - Visualization of Python code
