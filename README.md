@@ -18,6 +18,7 @@ If you want to install this environment to your own computer follow [this](https
 * https://www.datacamp.com/courses/intermediate-python-for-data-science - Interactive tutorial focus on visualization with matplotlib
 
 ## Tutorilas
+* https://imgur.com/WRuJV6r - Debugging workflow for beginners
 * https://automatetheboringstuff.com/ - Python for beginners, a different way, whit a lot tutorial
 * http://python.swaroopch.com/ - Learn Python from beginning by tutorials
 * https://www.codementor.io/python/tutorial - Useful tutorials from experts
