@@ -1,5 +1,5 @@
 # My Python learning pack!
-Here you find a list of resources which might be for your help for learning Python, as well as a virtual environment where many tools are readily available for you.
+Here you find a list of resources which might be for your help in learning Python, as well as a virtual environment where many tools are readily available for you.
 
 ## Setting up a Python environment
 This repo contains a virtual environment set up for easy installation. You can start using Python without learning how to install Python and modules, which is not always straightforward and might even require some system administration knowledge. Of course later you can learn these, but now we provide a little help for a quick start.
