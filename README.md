@@ -78,6 +78,8 @@ might be more complicated).
 * http://pbpython.com/visualization-tools-1.html - Another overview of tools, but with less details and less examples.
 * https://lisacharlotterost.github.io/2016/05/17/one-chart-code/ - A wider but less detailed comparison.
 * http://matplotlib.org/style_changes.html - Good material about color maps.
+* http://colororacle.org/ - Tool for checking color blind readability of figure colors
+* https://personal.sron.nl/~pault/ - Guide for color blind safe palettes. Especially see the tech notes: https://personal.sron.nl/~pault/colourschemes.pdf
 
 ## Graphs (networks) 
 * http://igraph.org/ - Powerful graph analysis package with full featured Python interface and great visualization module.
