@@ -61,10 +61,13 @@ might be more complicated).
 * https://boltons.readthedocs.org/en/latest/ - Many useful tools for advanced Python programming
 
 ## Visualization, plotting
+We have seen a number of efforts emerging in the past years aiming to provide powerful data visualization in Python, so sciencists and data analysts would not need to be envy of R users. Perhaps the perfect ggplot2 or lattice equivalent is still to come (although a very fresh library, Altair is promising), but each of the frameworks listed below are very good in certain tasks, and of course have its limitations. Thus, it is difficult to chose a plotting library, you will likely try more of them.
 * http://matplotlib.org/ - The "grandmother of all Python plotting applications", extremely customizable, but complex plotting module. Note: you can use matplotlib either by its object oriented interface or by the matlab inspired pylab interface, be aware of the differences.
 * http://seaborn.pydata.org/ - Module built on matplotlib, providing simple methods and nice default styles. And you can still access the low level matplotlib interface, in case you need it.
 * https://plot.ly/python/ - An easy way to make interactive html plots in IPython notebook. Note: it is not obvious from their webpage, but you don't need to register even for the free plan to use this library locally and generate html plots; you can install by pip and use it just like any other module.
 * http://bokeh.pydata.org/en/latest/ - Alternative to plot.ly.
+* http://lightning-viz.org/ - Similar to the former two. Note, in Python you can run lightning without server, just like the other plotting libraries.
+* http://holoviews.org/index.html - Feature rich, data driven plotting framework with matplotlib, seaborn and bokeh backends and connections to mpld3 and plotly via extensions.
 * http://pygal.org/en/stable/ - Similar to the 2 above, creates interactive plots.
 * https://mpld3.github.io/index.html - Here you create the plots with matplotlib, and transform them to d3.js objects, so they remain interactive in the browser, independently from Python.
 * https://github.com/vega/vega/wiki/Documentation - A generic visualization grammar (i.e. a declarative language to describe visualizations).
@@ -73,6 +76,7 @@ might be more complicated).
 * https://altair-viz.github.io/ - A declarative visualization module for Python using Vega in the background.
 * http://vispy.org/gallery.html - This creates and renders dynamic visualizations using the graphic card of your computer.
 * http://ggplot.yhathq.com/ - An attempt to make the famous R ggplot visualization library available in Python. Does not provide all the features and exactly the same interface, but still a nice library.
+* https://github.com/sirrice/pygg - Provides access to R ggplot2 from Python.
 * https://github.com/dgrtwo/gleam - Creates interactive visualizations for browser; Python needs to run in the background.
 * https://dansaber.wordpress.com/2016/10/02/a-dramatic-tour-through-pythons-data-visualization-landscape-including-ggplot-and-altair/ - An amusing and detailful comparison of matplotlib, pandas, seaborn, ggplot and altair, with 5 examples and analysis. If you want to make an informed decision about which library to use, don't skip this.
 * http://pbpython.com/visualization-tools-1.html - Another overview of tools, but with less details and less examples.
