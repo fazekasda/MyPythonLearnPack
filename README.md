@@ -39,7 +39,7 @@ When you write code with the aim of learning it is often difficult to find a tas
 * https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming - This is a very nice introduction to functional programming in Python.
 
 ## Resources
-Here we list blogs and assays which are not primarily tutorials, but give an introduction or insight into specific topics
+Here we list blogs and essays which are not primarily tutorials, but give an introduction or insight into specific topics
 * https://julien.danjou.info/blog/tags/Python - Python related articles from Julien Danjou's blog. You can find excellent pieces here, for example about testing, profiling, exception handling, pep8 standard, etc.
 * https://jakevdp.github.io/ - Interesting insights into specific topics.
 
