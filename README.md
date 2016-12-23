@@ -1,4 +1,5 @@
-# My Python learning pack!
+# Python resources for beginners...
+## ...with special regard to science and data analysis applications
 Here you find a list of resources which might be for your help in learning Python, as well as a virtual environment where many tools are readily available for you.
 
 ## Setting up a Python environment
