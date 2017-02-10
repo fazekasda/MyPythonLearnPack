@@ -132,5 +132,11 @@ IDEs help you to keep track of files in your project, their history, dependencie
 * http://pythontips.com/2016/02/27/learning-python-for-data-science/
 * http://pep8.org/ - Standard coding style guide. You will be expected to follow these simple rules in any serious project, so better to familiarize yourself from the beginning. Tools are available to autocheck and in limited cases autocorrect pep8 violations: https://flake8.pycqa.org/en/latest/, https://fangpenlin.com/posts/2014/02/05/auto-post-commit-pep8-correction/
 
+## Regular expression resources
+In data analysis we process tremendous amount of data which is sometimes noisy and we need to extract information from messy patterns. Regular expressions sooner or later will be your essential tools no matter which field and language do you work with. Here are a few excellent resources to learn these small tricky things called regex:
+* http://rexegg.com/ - great, detailful tutorials from beginner to advanced, often with interactive demo
+* http://regular-expressions.info/ - maybe the most well known regex page, clear and concise
+* http://lucumr.pocoo.org/2015/11/18/pythons-hidden-re-gems/ - about Python's regex module
+
 ## Fun
 * https://quantifiedcode.github.io/code-is-beautiful/ - Visualization of Python code
